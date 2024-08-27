@@ -1,0 +1,40 @@
+Version 0.0.1
+
+completed-
+
+Servo Motor SG90S(Robu SKU: 5764), Servo Motor MG90S(Robu SKU: 1119224), Servo Motor Orange OT5325M(Robu SKU: 867247)interfacing with PIC1632 Dev Board-
+------------------------------------------------------------------------
+
+
+1. All these 3 servo motors are interfaced with PIC1632 dev board using PWM signal.
+
+2. PWM is a Pulse Width Modulation used for adjusting the duty cycles of Clock signals.
+
+3. PWM Signal with required duty cycle is achieved by assigning PWM pin with Output Compare1 pin using Peripheral Pin Select method.
+
+4. Calculations-
+
+Calculation for PR2 timer 2 period register for PWM of 400 usec period-
+------------------------------------------------------------------------
+
+pwm period = (PR2 + 1) * TCY * Timer 2 Prscaler Value
+
+PR2 = (pwm period / (TCY * Timer 2 Prescaler Value)) - 1
+
+PR2 = (400x10^-6 / (250x10^-9 * 1)) - 1
+
+PR2 = 1599
+
+
+
+//This is required to drive servo motors
+Calculation for PR2 timer 2 period register for PWM of 20msec period-
+------------------------------------------------------------------------
+
+pwm period = (PR2 + 1) * TCY * Timer 2 Prscaler Value
+
+PR2 = (pwm period / (TCY * Timer 2 Prescaler Value)) - 1
+
+PR2 = (20x10^-3 / (250x10^-9 * 8)) - 1
+
+PR2 = 9999

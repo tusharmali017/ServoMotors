@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/APP/app.c</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/main.c</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/projectdefines.h</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/pwm.h</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/pwm.c</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/timer2.c</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/bios.c</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/pinmap.c</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/pinmap.h</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/APP/app.h</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/bios.h</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/timer1.c</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/uart1.c</file>
+            <file>file:/D:/PPP/Code/Fire%20Warning%20System/servoMotor.X/BIOS/uart2.c</file>
+        </group>
+    </open-files>
+</project-private>
